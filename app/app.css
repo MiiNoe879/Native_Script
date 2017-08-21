@@ -1,0 +1,49 @@
+/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme.
+*/
+@import 'nativescript-theme-core/css/aqua.css';
+
+.Calvert {
+  font-family: CalvertMTStd-Light, Calvert MT Std Light;
+}
+
+.btn {
+  font-size: 18;
+}
+
+.feed-item {
+  border-color: #02C602;
+  border-width: 2px;
+  border-radius: 6;
+  padding: 8;
+  margin: 4;
+  height: 60;
+  width: 100%;
+}
+
+.circle-avatar {
+  box-shadow: #006600;
+  border-radius: 50%;
+}
+
+ListView {
+  separator-color: transparent;
+}
+
+.tab-title {
+  font-size: 25;
+}
+
+.main-layout {
+  padding: 10;
+  width: 100%;
+  height: 100%;
+}

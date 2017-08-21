@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string formatted="false" name="_25911d48e023cd10fc08d378641ee620f5e39d86">"Show more..."</string>
+  <string formatted="false" name="_ad086cf55b834c375e209972840f1342401d8c41">"Read More..."</string>
+  <string formatted="false" name="_6b21fb791ac05170893860c248401cd24a59b732">"About"</string>
+  <string formatted="false" name="_086158f0dfad3c3c4b1bd38a5b8b7e5efdf148ce">"Give feedback"</string>
+  <string formatted="false" name="_753a22b2eb617204efee4644795034b8ace1ee14">"Notifications"</string>
+  <string formatted="false" name="_71dd223f6b38a8b983e4066aae39ce5cdce9265a">"General Settings"</string>
+  <string formatted="false" name="_284af3e8882bbc45760521be2f100a2d104ff5d8">"Weather"</string>
+  <string formatted="false" name="_06aeff29a41bcda965c469b484cf756553983d26">"Additional Services"</string>
+  <string formatted="false" name="_44dbbf13e4fc0afb32cf701d7519866d55d38b74">"Golf Partners"</string>
+  <string formatted="false" name="_3585d7553d867b5259e9207380972258a049c0db">"Restaurant"</string>
+  <string formatted="false" name="_612e12d29278b5519294bc25cdaddffec6d0f1c6">"Results"</string>
+  <string formatted="false" name="_db98a68af503ecd685e6bf55e2821bb4ffc17b0b">"Competitions"</string>
+  <string formatted="false" name="_a7d38e13aff7beafedbaed68f418de8f457d68f2">"NexGolf"</string>
+  <string formatted="false" name="_558865a16feb9f751b8bcebf46a954afbeba0b24">"YouTube"</string>
+  <string formatted="false" name="_5392c950bdde4be7e5f5b8fdc6a1ca5f21e905cf">"Twitter"</string>
+  <string formatted="false" name="_5721bbef40b22bbdb2e6a062b096d9b48735c2ff">"Instagram"</string>
+  <string formatted="false" name="_82da67b211249624f24f3c7db5642a5112c9446f">"Facebook"</string>
+  <string formatted="false" name="_2e8a57cc5c472f4ac3b071979a38e80db7e59e87">"Website"</string>
+  <string formatted="false" name="_b37456c4530be810dc040f50da72eda09addfb0a">"Contact"</string>
+  <string formatted="false" name="_c7f73bb54d928922c3838bb789ee9fb8a5b1eb37">"Settings"</string>
+  <string formatted="false" name="_aa16f0e59d95543406cc50e45c9c02c64c5ccc63">"Partners"</string>
+  <string formatted="false" name="_82cebd0cac45c28817fad5367f93a5bced93dca0">"Sponsors"</string>
+  <string formatted="false" name="_f9f26118d638099e4a8b212566eecfa0db6932a8">"Tee Times"</string>
+  <string formatted="false" name="_4e115e2b503ed6d661d1535b5fb62d950c1851ab">"Latest News"</string>
+  <string formatted="false" name="_70f8bb9a8a5393ef080507a89e4b98d139000d65">"Home"</string>
+  <string formatted="false" name="_d523ebbd10146cdfd39dee077f04c9d08468d0bc">"EnglishSuomiSvenska"</string>
+  <string formatted="false" name="_932c7ce7303f2adb208fc9784ba0dc10f07d9684">"App would like to use location service"</string>
+  <string formatted="false" name="_0c3112826a8c897ac0b6a3d3a8432059b74dd996">"CLUB"</string>
+  <string formatted="false" name="app_name">"CLUB"</string>
+  <string formatted="false" name="title_activity_kimera">"CLUB"</string>
+</resources>

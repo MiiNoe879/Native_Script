@@ -1,0 +1,14 @@
+<ActionBar title="NexGolf" class="action-bar">
+  <NavigationButton text="{{ 'Back'|L }}" android.systemIcon="ic_menu_back" (tap)="onNavBtnTap()">
+  </NavigationButton>
+</ActionBar>
+<StackLayout class="p-8">
+  <ListView [items]="items" height="100%" backgroundColor="transparent">
+    <ng-template let-item="item">
+      <StackLayout [nsRouterLink]="['/webpage', {title:'NexGolf', link: item.link}]" orientation="horizontal" class="feed-item">
+        <Image [src]="item.image" class="circle-avatar" width="50" height="50" marginRight="20" verticalAllignment="center"></Image>
+        <Label [text]="item.text" class="title" verticalAllignment="center"></Label>
+      </StackLayout>
+    </ng-template>
+  </ListView>
+</StackLayout>

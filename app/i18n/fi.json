@@ -1,0 +1,33 @@
+{
+  "app.name": "CLUB",
+  "ios.info.plist.NSLocationWhenInUseUsageDescription": "App would like to use location service",
+
+  "Country": [
+    "English","Suomi", "Svenska"
+  ],
+  "Home": "Home",
+  "Latest News":"Latest News",
+  "Tee Times":"Tee Times",
+  "Sponsors":"Sponsors",
+  "Settings":"Settings",
+  "Contact":"Contact",
+  "Website":"Website",
+  "Facebook":"Facebook",
+  "Instagram":"Instagram",
+  "Twitter":"Twitter",
+  "YouTube":"YouTube",
+  "NexGolf":"NexGolf",
+  "Tee Times":"Tee Times",
+  "Competitions":"Competitions",
+  "Results":"Results",
+  "Restaurant":"Restaurant",
+  "Golf Partners":"Golf Partners",
+  "Additional Services":"Additional Services",
+  "Weather":"Weather",
+  "General Settings":"General Settings",
+  "Notifications":"Notifications",
+  "Give feedback":"Give feedback",
+  "About": "About",
+  "Read more": "Read More...",
+  "Show more": "Show more..."
+}

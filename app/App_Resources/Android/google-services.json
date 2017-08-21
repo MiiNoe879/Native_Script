@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "779353066314",
+    "firebase_url": "https://nativescript-firebase.firebaseio.com",
+    "project_id": "nativescript-firebase",
+    "storage_bucket": "nativescript-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779353066314:android:f4b703dfdb8d5672",
+        "android_client_info": {
+          "package_name": "com.YRH.App.Club"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779353066314-b795q2irua8ism5d5fp7mvlpps01equ5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7H3WmCam9_neaKEda8WqgwMV7Q8N5cug"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

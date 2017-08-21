@@ -1,0 +1,24 @@
+<ActionBar [title]="feed.name" class="action-bar">
+  <NavigationButton text="Back"
+    android.systemIcon="ic_menu_back"
+    (tap)="onNavBtnTap()">
+  </NavigationButton>
+</ActionBar>
+<StackLayout class="p-8">
+  <ListView
+    [items]="feedDetails" height="100%"
+    backgroundColor="transparent">
+    
+    <ng-template let-item="item">
+      <StackLayout
+        orientation="vertical"
+        [nsRouterLink]="['/webpage', {title:item.title, link: item.link}]"
+        class="feed-item">
+        <Label [text]="item.title" class="title" horizontalAllignment="left" textWrap="true"></Label>
+        <Label [text]="item.author" class="title" horizontalAllignment="left"></Label>
+        <Label [text]="item.pubDate" class="title" horizontalAllignment="left"></Label>
+      </StackLayout>
+    </ng-template>
+
+  </ListView>
+</StackLayout>

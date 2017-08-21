@@ -1,0 +1,10 @@
+<GridLayout rows="*, auto">
+  <StackLayout row="0">
+    <Image height="70" width="100%" stretch="aspectFit" [src]="appData.res.logo">
+    </Image>
+    <router-outlet></router-outlet>
+  </StackLayout>
+  
+  <BottomBar accentColor="green" row="1" titleState="1" [items]="tabItems" (tabSelected)="onTabSelected($event)">
+  </BottomBar>
+</GridLayout>

@@ -1,0 +1,14 @@
+<DockLayout stretchLastChild="true" class="main-layout">
+  <Label text="{{ 'Home'|L }}" class="tab-title" dock="top"></Label>
+  <StackLayout class="main-layout">
+    <ListView [items]="appData.feeds" (itemTap)="onItemTap($event)" height="100%" backgroundColor="transparent">
+      <ng-template let-item="item">
+        <StackLayout orientation="horizontal" class="feed-item">
+          <Image [src]="item.logo" class="circle-avatar" width="50" height="50" marginRight="20" verticalAllignment="center">
+          </Image>
+          <Label [text]="item.name" class="title" verticalAllignment="center"></Label>
+        </StackLayout>
+      </ng-template>
+    </ListView>
+  </StackLayout>
+</DockLayout>

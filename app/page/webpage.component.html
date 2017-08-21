@@ -1,0 +1,12 @@
+<ActionBar [title]="title" icon="" class="action-bar">
+  <NavigationButton text="Back"
+    android.systemIcon="ic_menu_back"
+    (tap)="onNavBtnTap()">
+  </NavigationButton>
+</ActionBar>
+
+<WebView [src]="link"
+  width="100%" height="100%"
+  (loadStarted)="onLoadStarted($event)"
+  (loadFinished)="onLoadFinished($event)">
+</WebView>
